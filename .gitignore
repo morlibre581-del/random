@@ -1,3 +1,17 @@
 .opencode/
 .local/
 .snapshots/
+node_modules/
+dist/
+
+# домашние файлы (не относятся к проекту)
+.bash_history
+.bash_logout
+.bashrc
+.cache/
+.config/
+.gitconfig
+.landscape/
+.motd_shown
+.npm/
+.profile
