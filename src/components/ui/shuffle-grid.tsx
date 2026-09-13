@@ -69,22 +69,22 @@ const shuffle = (array: (typeof squareData)[0][]) => {
 };
 
 const squareData = [
-  { id: 1, src: "/photos/photo-01.jpg" },
-  { id: 2, src: "/photos/photo-02.jpg" },
-  { id: 3, src: "/photos/photo-03.jpg" },
-  { id: 4, src: "/photos/photo-04.jpg" },
-  { id: 5, src: "/photos/photo-05.jpg" },
-  { id: 6, src: "/photos/photo-06.jpg" },
-  { id: 7, src: "/photos/photo-07.jpg" },
-  { id: 8, src: "/photos/photo-08.jpg" },
-  { id: 9, src: "/photos/photo-09.jpg" },
-  { id: 10, src: "/photos/photo-10.jpg" },
-  { id: 11, src: "/photos/photo-11.jpg" },
-  { id: 12, src: "/photos/photo-12.jpg" },
-  { id: 13, src: "/photos/photo-01.jpg" },
-  { id: 14, src: "/photos/photo-02.jpg" },
-  { id: 15, src: "/photos/photo-03.jpg" },
-  { id: 16, src: "/photos/photo-04.jpg" },
+  { id: 1, src: import.meta.env.BASE_URL + "photos/photo-01.jpg" },
+  { id: 2, src: import.meta.env.BASE_URL + "photos/photo-02.jpg" },
+  { id: 3, src: import.meta.env.BASE_URL + "photos/photo-03.jpg" },
+  { id: 4, src: import.meta.env.BASE_URL + "photos/photo-04.jpg" },
+  { id: 5, src: import.meta.env.BASE_URL + "photos/photo-05.jpg" },
+  { id: 6, src: import.meta.env.BASE_URL + "photos/photo-06.jpg" },
+  { id: 7, src: import.meta.env.BASE_URL + "photos/photo-07.jpg" },
+  { id: 8, src: import.meta.env.BASE_URL + "photos/photo-08.jpg" },
+  { id: 9, src: import.meta.env.BASE_URL + "photos/photo-09.jpg" },
+  { id: 10, src: import.meta.env.BASE_URL + "photos/photo-10.jpg" },
+  { id: 11, src: import.meta.env.BASE_URL + "photos/photo-11.jpg" },
+  { id: 12, src: import.meta.env.BASE_URL + "photos/photo-12.jpg" },
+  { id: 13, src: import.meta.env.BASE_URL + "photos/photo-01.jpg" },
+  { id: 14, src: import.meta.env.BASE_URL + "photos/photo-02.jpg" },
+  { id: 15, src: import.meta.env.BASE_URL + "photos/photo-03.jpg" },
+  { id: 16, src: import.meta.env.BASE_URL + "photos/photo-04.jpg" },
 ];
 
 const generateSquares = () => {
